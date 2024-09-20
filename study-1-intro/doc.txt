@@ -1,0 +1,110 @@
+INTRODUCTON
+-----------
+
+Install node
+
+-To create react application
+
+    npx create-react-app app-name
+    
+- To run
+
+    npm start
+
+
+
+JSX- JAVASCRIPT XML(syntax extension)
+-------------------------------------
+
+Used in React easily write HTML and JAVASCRIPT together.
+
+How to use it?
+
+How JSX works?
+
+JSX Attributes?
+
+JSX Expression?
+
+JSX fragment?
+
+
+babel  : jsx language convert into pure JAVASCRIPT
+
+
+
+COMPONENTS
+----------
+
+Building blocks
+
+reusable
+
+-----functional COMPONENTS
+
+-----CLass COMPONENTS
+
+
+CSS IN REACT
+------------
+
+In line CSS
+
+Through Variables
+
+External CSS files
+
+
+BOOTSTRAP IN REACT
+------------------ 
+
+npm install react-bootstrap bootstrap
+
+import Bootstrap from 'react-bootstrap';        -----app.js
+
+import 'bootstrap/dist/css/bootstrap.min.css';      -----index.js
+
+
+
+EVENTS IN REACT
+---------------
+
+-- An event is any action that happens on webapp by user
+
+-- we can assign a handler(function) that runs when an event  happens
+
+--  React Event handling is very similar to HTML DOM events.
+
+--  React events are named in camelCase.(onClick)
+
+
+
+---- Mouse Events: onClick, onDoubleClick, 
+---- onMouseEnter, onMouseLeave, etc.
+---- Keyboard Events: onKeyDown, onKeyPress, onKeyUp.
+---- Form Events: onChange, onSubmit, onFocus, onBlur.
+---- Input Events: onInput, onInvalid
+---- Focus Events: onFocus, onBlur
+---- Clipboard Events: onCopy, onCut, onPaste 
+
+
+
+
+USESTATE HOOK
+-------------
+
+
+--- State :
+
+            State is an object that stores the values of properties of a component that could change.
+
+            A state can be modified based on user action .
+            Every time state changes React re-render the comment to the browser.
+
+--- Hook  :
+
+            A hook is a special function that let's you "hook into" React features.
+
+            for example : - useState is a Hook that lets you add React State to function components
+
+            Hook allows function component to have access to state and other React Features
